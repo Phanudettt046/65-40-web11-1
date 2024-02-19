@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*background-color: blue;*/
+}
+
+
+/*-------------- Start Headder ------------*/
+header{
+    background-color: #2CE698;
+}
+
+
+nav{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 1100px;
+    margin: auto;
+    height: 48px;
+   
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+}
+
+li{
+    margin-right: 20px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+/*-------------- Start Hero Section ------------*/
+
+.hero{
+ display: flex;
+ width: 1100px;
+ margin: auto;
+ justify-content: space-between;
+ align-items: center;
+ 
+}
+
+.hero-tetx--box{
+    color: #ffffff;
+    /*background-color: blue;*/
+    
+}
+
+.hero-button{
+ /*background-color: rgb(197, 103, 21);*/
+ display: flex;
+
+}
+
+.hero-bt-getStart{
+    color: rgb(238, 240, 240);
+    background-color: rgb(214, 71, 15);
+    padding: 8px 20px;
+    border-radius: 30px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.hero-bt--watch{
+    /*background-color: black;*/
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.hero-image{
+
+}
+
+.plan{
+    width: 1000px;
+    margin: auto;
+
+    background-color: #ffffff;
+}
+.tetx-h1{
+    color: blue;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.text-param{
+  color: black;
+  text-align: center;
+}
+
+.plan-boxs{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------start Members Section---------------------*/
+
+.member{
+    background-color: #2CE698;
+    padding: 40px;
+    
+}
+
+.member-box {
+    width: 1100px;
+    background-color: #fafafa;
+    margin: auto;
+
+    box-shadow: 0px 0ox 5px 0.5px #888888;
+    border-radius: 5px;
+    padding: 1px 40px 40px;
+}
+
+table {
+    width: 80%;
+    border: 1px solid rgb(93, 67, 67);
+    border-collapse ;
+}
+
+th,td {
+    border: 1px solid rgb(93, 67, 67);
+
+    margin: auto;
+}
+
+th {
+
+}
+
+td {
+
+}
